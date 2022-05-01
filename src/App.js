@@ -13,8 +13,8 @@ const App = () => {
       <Header />
       <LandingView />
       <PartnerView />
-      <FeatureView />
-      <RecommendationView />
+      {/* <FeatureView />
+      <RecommendationView /> */}
       <IntegrationView />
       <Footer />
     </div>
