@@ -5,6 +5,9 @@
 .signup {
     @apply h-16 w-36 ml-8 border rounded-full font-bold text-xl text-white bg-[#348888]; 
 }
+.accept-crypto{
+    @apply h-14 w-80 ml-8 border rounded-full font-bold text-[14px] text-white bg-[#348888]; 
+}
 .btn-getstarted:hover{
     color: white;
     background-color:#348888;
