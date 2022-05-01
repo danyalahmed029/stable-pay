@@ -108,20 +108,20 @@ const Footer = () => {
                 </p>
               </li>
               <li>
-                <div class='flex mt-4'>
+                <div className="flex mt-4">
                   <input
-                    type='text'
-                    class='
+                    type="text"
+                    className="
                 h-auto
                 p-2
                 text-sm
                 border border-white
                 rounded-l-2xl
                 text-grey-dark
-              '
-                    placeholder='Your email address'
+              "
+                    placeholder="Your email address"
                   />
-                  <button class='h-auto p-3 text-xs bg-[#348888] text-white rounded-r-2xl'>
+                  <button className="h-auto p-3 text-xs bg-[#348888] text-white rounded-r-2xl">
                     Subscribe
                   </button>
                 </div>
@@ -131,7 +131,9 @@ const Footer = () => {
         </div>
       </div>
       <div className='flex justify-center p-4'>
-        <img className='h-8 w-auto sm:h-10' src={FooterLogo} alt='' />
+        <img className="h-8 w-auto sm:h-10"
+          src={FooterLogo}
+          alt="" />
       </div>
       <div className='text-center text-white/60'>
         © 2013-2022 StablesPay,
@@ -153,7 +155,9 @@ const Footer = () => {
         <a href='#top' className='p-2'>
         <img className='h-2 w-6 sm:h-10' src={LinkedinLogo} alt='' />
         </a>
+
       </div>
+
     </footer>
   );
 };

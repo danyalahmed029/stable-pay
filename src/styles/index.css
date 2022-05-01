@@ -7,6 +7,33 @@
 
 @layer base{
     html {
-        font-family: "Futura", "sans-serif";
+        font-family: "Futura", sans-serif;
     }
+}
+.banner-card{
+    background-repeat: no-repeat;
+}
+.business-card{
+    background: linear-gradient(95.51deg, #22BABB -8.37%, rgba(158, 248, 238, 0.76) 118.77%);
+    box-shadow: 0px -12px 37px -22px rgba(0, 0, 0, 0.29);
+    border-radius: 0px 0px 24px 24px;
+    padding: 0 28px 40px 28px;
+    background-position: center 25%;
+}
+.business-card .card-icon{
+    background-color: white;
+    border-radius: 50%;
+    height:130px;
+    width: 130px;
+    margin-top: -65px;
+}
+.business-card .card-content{
+    padding-left: 20px;
+}
+.business-card ul{
+    list-style-type: disc;
+    margin-top: 20px;
+}
+.personal-card{
+    background: linear-gradient(95.99deg, #8D8D8D -8.42%, rgba(140, 140, 140, 0.57) 106.38%), linear-gradient(95.51deg, #939393 -8.37%, #3B403F 118.77%);
 }
