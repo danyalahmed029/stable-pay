@@ -1,6 +1,6 @@
-import React from "react";
 import FacebookLogo from './../../../assets/social-icons/Facebook.png';
 import FooterLogo from './../../../assets/stable-pay-logo/footerLogo.png';
+import React from "react";
 
 const Footer = () => {
   return (
@@ -104,10 +104,10 @@ const Footer = () => {
                 <p className="text-white/60">Stay Up toDate with the Latest News</p>
               </li>
               <li>
-              <div class="flex mt-4">
-            <input
-              type="text"
-              class="
+                <div className="flex mt-4">
+                  <input
+                    type="text"
+                    className="
                 h-auto
                 p-2
                 text-sm
@@ -115,12 +115,12 @@ const Footer = () => {
                 rounded-l-2xl
                 text-grey-dark
               "
-              placeholder="Your email address"
-            />
-            <button class="h-auto p-3 text-xs bg-[#348888] text-white rounded-r-2xl">
-              Subscribe
-            </button>
-          </div>
+                    placeholder="Your email address"
+                  />
+                  <button className="h-auto p-3 text-xs bg-[#348888] text-white rounded-r-2xl">
+                    Subscribe
+                  </button>
+                </div>
               </li>
             </ul>
           </div>
@@ -128,8 +128,8 @@ const Footer = () => {
       </div>
       <div className='flex justify-center p-4'>
         <img className="h-8 w-auto sm:h-10"
-              src={FooterLogo}
-              alt="" />
+          src={FooterLogo}
+          alt="" />
       </div>
       <div
         className="text-center"
@@ -138,9 +138,9 @@ const Footer = () => {
         <a className="text-white" href="https://tailwind-elements.com/">
           Tailwind Elements
         </a>
-        
+
       </div>
-     
+
     </footer>
   );
 };
