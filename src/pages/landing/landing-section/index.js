@@ -22,11 +22,11 @@ const LandingView = () => {
                 Ease of Payment
               </span>
             </h1>
-            <p className="text-[16px] leading-[24px] mb-[20px]">
+            <p className="text-[16px] leading-[24px] mb-[20px] font-poppins">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ridiculus hendrerit aenean quam rhoncus ac libero nunc netus. Augue id faucibus libero, aliquam, eu purus vitae. Tincidunt id aliquam i
               nteger felis donec magna bibendum.
             </p>
-            <a href="#" className="rounded-[20px] text-[#348888] text-[14px] font-semi-bold border  px-[60px] py-[15px] border-[#348888] btn-getstarted">Get Started</a>
+            <a href="#" className="rounded-[20px] text-[#348888] text-[14px] font-poppins font-semibold border  px-[60px] py-[15px] border-[#348888] btn-getstarted">Get Started</a>
           </div>
         </div>
 
@@ -44,13 +44,13 @@ const LandingView = () => {
                 <div className="card-content">
                   <h2 className="text-[28px] mt-[-40px] font-medium">Business</h2>
                   <p className='text-[#fff] pt-[24px] text-[20px]'>Serving 100,000+ merchants globally</p>
-                  <ul className='text-[#fff] text-[16px] pl-[20px] pb-[30px]'>
+                  <ul className='text-[#fff] text-[16px] pl-[20px] pb-[30px] font-poppins'>
                     <li>Real-time global payments</li>
                     <li>Industry-low processing fees of only 0.5%</li>
                     <li>Reduced fraud risk with no chargebacks</li>
                     <li>Fiat conversion options</li>
                   </ul>
-                  <a href="#" className="rounded-[20px] text-[#fff] text-[14px] font-semi-bold border block text-center  px-[60px] py-[15px] bg-[#348888] border-[#348888] btn-access">ACCEPT CRYPTO NOW</a>
+                  <a href="#" className="rounded-[20px] text-[#fff] font-poppins font-semibold text-[14px]  border block text-center  px-[60px] py-[15px] bg-[#348888] border-[#348888] btn-access">ACCEPT CRYPTO NOW</a>
 
                 </div>
 
@@ -70,7 +70,7 @@ const LandingView = () => {
                   <li>Convert your crypto</li>
                   <li>Purchase gift cards</li>
                 </ul>
-                <a href="#" className="rounded-[20px] text-[#fff] text-[14px] font-semi-bold border block text-center  px-[60px] py-[15px] bg-[#FA7F08] border-[#FA7F08] btn-access">ACCEPT CRYPTO NOW</a>
+                <a href="#" className="rounded-[20px] text-[#fff] text-[14px] font-poppins font-semibold border block text-center  px-[60px] py-[15px] bg-[#FA7F08] border-[#FA7F08] btn-access">ACCEPT CRYPTO NOW</a>
 
               </div>
 
